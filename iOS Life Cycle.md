@@ -7,7 +7,7 @@
 
 1. **App Life Cycle**
 2. **Scene Life Cycle**
-<!-- 3. **View Controller Life Cycle** <!-- VCLC 임시주석 --!> -->
+<!-- 3. **View Controller Life Cycle** -->
 
 <br>
 <br>
@@ -59,7 +59,7 @@
 4. **Background**: 앱이 백그라운드로 들어간 상태
 5. **Suspended**: 앱이 백그라운드에 있지만 코드를 실행하지 않는 상태
 
-<p align="center"><img src="iOS_App_Life_Cycle_State.png"width=500 height=550><p>
+<p align="center"><img src="Resources/iOS_App_Life_Cycle_State.png"width=500 height=550><p>
 
 ### 주요 메서드 (AppDelegate)
 
@@ -103,7 +103,7 @@
 4. **Background**: Scene이 백그라운드에 있지만 코드를 실행할 수 있는 상태.
 5. **Suspended**: Scene이 백그라운드에 있고 현재 코드를 실행하고 있지 않는 상태.
 
-<p align="center"><img src="iOS_Scene_Life_Cycle_State.png"width=500 height=550><p>
+<p align="center"><img src="Resources/iOS_Scene_Life_Cycle_State.png"width=500 height=550><p>
 
 ### 주요 메서드 (UISceneDelegate)
 - `scene(_:willConnectTo:options:)`: Scene 인스턴스가 앱에 생성될 때 호출. (Unattached → Foreground Inactive 또는 Background)
@@ -117,7 +117,7 @@
 <br>
 <br>
 
-<!-- ## 뷰 컨트롤러 라이프 사이클 (View Controller Life Cycle) <!-- VCLC 임시주석 --!>
+<!-- ## 뷰 컨트롤러 라이프 사이클 (View Controller Life Cycle) 
 
 ### 뷰 시작 (View Initialization)
 
