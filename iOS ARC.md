@@ -26,6 +26,13 @@
     unowned var parent: MyParentClass
     ```
 - **Optional vs Non-Optional**: weak 참조는 항상 옵셔널(Optional)이어야 하며, unowned 참조는 옵셔널이 아니어야 합니다.
+
+
+## ARC 의 한계
+- ARC 는 오직 객체에 대한 메모리만 관리합니다.
+- CoreFoundation 객체나 C 언어로 작성된 코드의 메모리는 수동으로 관리해야 할 수 있습니다.
+
+
 ## ARC 와 순환 참조
 - ARC는 "순환 참조(Circular Reference)" 문제를 완전히 해결해주지는 못합니다. 이는 `weak` 또는 `unowned` 참조를 통해 해결해야 합니다.
 
